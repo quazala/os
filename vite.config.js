@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
-      name: 'QuazalaSchemaValidator',
+      name: 'QuazalaOpenSearchConnector',
       fileName: (format) => `main.${format}.js`,
       formats: ['es', 'cjs'],
     },
